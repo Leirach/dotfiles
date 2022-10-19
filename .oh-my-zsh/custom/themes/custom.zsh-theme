@@ -242,10 +242,15 @@ prompt_aws() {
   esac
 }
 
+prompt_time() {
+  prompt_segment black default "%t"
+}
+
 ## Main prompt
 build_prompt() {
   RETVAL=$?
   prompt_status
+  prompt_time
   prompt_virtualenv
   prompt_aws
   prompt_context
