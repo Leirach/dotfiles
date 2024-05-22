@@ -4,7 +4,7 @@ if [ -z "$ZSH_BIN" ]; then
     sudo apt install -y zsh
 fi
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 cp .zshrc ~/.zshrc
 cp custom.zsh-theme ~/.oh-my-zsh/custom/themes
