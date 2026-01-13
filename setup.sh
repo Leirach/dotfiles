@@ -11,4 +11,4 @@ cp custom.zsh-theme ~/.oh-my-zsh/custom/themes
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-sudo chsh -s $(which zsh)
+chsh -s $(which zsh)
